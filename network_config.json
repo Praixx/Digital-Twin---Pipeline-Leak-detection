@@ -1,0 +1,41 @@
+{
+  "network_id": "micro_grid_ttd_01",
+  "nodes": [
+    {
+      "id": "node_0",
+      "type": "supply",
+      "x_cord": 0,
+      "boundary_pressure_bar": 100
+    },
+    {
+      "id": "node_1",
+      "type": "junction",
+      "x_cord": 500,
+      "boundary_pressure_bar": null
+    },
+    {
+      "id": "node_2",
+      "type": "delivery",
+      "x_cord": 1000,
+      "boundary_pressure_bar": 50
+    }
+  ],
+  "edges": [
+    {
+      "id": "pipe_A",
+      "source": "node_0",
+      "target": "node_1",
+      "length_m": 500,
+      "diameter_m": 1.0,
+      "friction_factor": 0.02
+    },
+    {
+      "id": "pipe_B",
+      "source": "node_1",
+      "target": "node_2",
+      "length_m": 500,
+      "diamter_m": 1.0,
+      "friction_factor": 0.02
+    }
+  ]
+}
