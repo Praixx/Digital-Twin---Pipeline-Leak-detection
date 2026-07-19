@@ -209,7 +209,7 @@ const DigitalTwinDashboard = () => {
           <div className="bg-slate-900 border border-slate-800 p-6 rounded-xl">
             <h2 className="text-lg font-bold text-white mb-4 flex items-center">
               <Zap className="mr-2 w-5 h-5 text-fuchsia-500" />
-              Live Injection Controls
+              Live RuptureInjection Controls
             </h2>
 
             <div className="mb-6">
