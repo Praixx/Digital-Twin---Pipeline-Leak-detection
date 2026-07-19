@@ -34,7 +34,7 @@
       "source": "node_1",
       "target": "node_2",
       "length_m": 500,
-      "diamter_m": 1.0,
+      "diameter_m": 1.0,
       "friction_factor": 0.02
     }
   ]
